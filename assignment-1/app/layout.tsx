@@ -16,18 +16,17 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${pixel.variable} antialiased bg-[--bg] text-[--text] relative`}
-      >
-        {}
-        <div className="fixed inset-0 bg-pixel-grid pointer-events-none z-0" />
-        {}
-        <Toaster />
+    <html lang="en">
+  <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}>
+    <div
+  className="fixed inset-0 z-[-1] bg-cover bg-center opacity-90 bg-float"
+  style={{ backgroundImage: "url('/pixel-bg.jpg')" }}
+/>
+    {children}
+  </body>
+</html>
 
-        {}
-        <div className="relative z-10">{children}</div>
-      </body>
-    </html>
   );
 }
+
+

@@ -134,10 +134,14 @@ body {
     @apply bg-background text-foreground;
   }
 }
-@keyframes drift {
-  0%   { background-position: 0 0 }
-  100% { background-position: 32px 32px } 
+@keyframes float-bg {
+  0% { background-position: 0 0; }
+  100% { background-position: 50px 50px; }
 }
+.bg-float {
+  animation: float-bg 60s linear infinite;
+}
+
 .bg-pixel-grid {
   background-image: url("/grid.svg");
   animation: drift 20s linear infinite;
