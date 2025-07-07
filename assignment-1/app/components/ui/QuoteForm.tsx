@@ -1,4 +1,4 @@
-'use client'
+
 
 import { useEffect, useState } from 'react'
 import { toast } from 'sonner'
@@ -6,6 +6,8 @@ import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import type { Quote } from '@/types/quote'
+import MoodButton from "@/components/ui/MoodButton"
+
 
 export default function QuoteForm() {
   const [topic, setTopic] = useState('')
@@ -38,8 +40,14 @@ export default function QuoteForm() {
         <Input
           value={topic}
           onChange={(e) => setTopic(e.target.value)}
-          placeholder="Enter a topic (e.g. life, success)"
+          placeholder="Enter a topic (e.g. change, success)"
         />
+        <MoodButton
+    onSelect={(t) => {
+      setTopic(t)
+      setTimeout(() => document.getElementById("quote-submit")?.click(), 0)
+    }}
+    />
         <Button type="submit">Inspire Me</Button>
       </form>
 

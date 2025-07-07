@@ -1,7 +1,37 @@
 [
-  { "text": "Life is what happens when you’re busy making other plans.", "topic": "life", "author": "John Lennon" },
-  { "text": "Get busy living or get busy dying.", "topic": "life", "author": "Stephen King" },
+  { "text": "The only constant in life is change.", "topic": "change", "author": "Heraclitus" },
+  { "text": "Yesterday I was clever, so I wanted to change the world. Today I was wise, so I am changing myself.", "topic": "change", "author": "Rumi" },
   { "text": "Success usually comes to those who are too busy to be looking for it.", "topic": "success", "author": "Henry David Thoreau" },
   { "text": "Don’t be afraid to give up the good to go for the great.", "topic": "success", "author": "John D. Rockefeller" },
-  { "text": "Creativity is intelligence having fun.", "topic": "creativity", "author": "Albert Einstein" }
+  { "text": "Creativity is intelligence having fun.", "topic": "creativity", "author": "Albert Einstein" },
+  {
+    "text": "Peace begins with a smile.",
+    "topic": "peace",
+    "author": "Mother Teresa"
+  },
+  {
+    "text": "Nothing can bring you peace but yourself.",
+    "topic": "peace",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "text": "When the power of love overcomes the love of power the world will know peace.",
+    "topic": "peace",
+    "author": "Jimi Hendrix"
+  },
+  {
+    "text": "The quieter you become, the more you can hear.",
+    "topic": "intuition",
+    "author": "Ram Dass"
+  },
+  {
+    "text": "Intuition is a very powerful thing, more powerful than intellect.",
+    "topic": "intuition",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "Your time is limited, so don’t waste it living someone else’s life. Have the courage to follow your heart and intuition.",
+    "topic": "intuition",
+    "author": "Steve Jobs"
+  }
 ]
