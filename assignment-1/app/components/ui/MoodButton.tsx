@@ -15,7 +15,7 @@ export default function MoodButton({ onSelect }: { onSelect: (topic: string) => 
       </DialogTrigger>
 
       <DialogContent className="max-w-xs text-center space-y-4">
-        <h3 className="font-bold text-lg">Pick a mood</h3>
+        <h3 className="font-bold text-lg text-green-600">Pick a mood</h3>
 
         <div className="grid gap-2">
           {moods.map((m: Mood) => (
@@ -26,6 +26,7 @@ export default function MoodButton({ onSelect }: { onSelect: (topic: string) => 
                 onSelect(m.topic)
                 setOpen(false)
               }}
+              className="text-pink-500"
             >
               {m.label}
             </Button>
