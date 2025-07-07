@@ -17,5 +17,21 @@
 
   { "text": "Time you enjoy wasting is not wasted time.", "topic": "time", "author": "Bertrand Russell" },
   { "text": "The two most powerful warriors are patience and time.", "topic": "time", "author": "Leo Tolstoy" },
-  { "text": "Time is what we want most, but what we use worst.", "topic": "time", "author": "William Penn" }
+  { "text": "Time is what we want most, but what we use worst.", "topic": "time", "author": "William Penn" },
+  {
+  "text": "Logic will get you from A to B. Imagination will take you everywhere.",
+  "topic": "imagination",
+  "author": "Albert Einstein"
+},
+{
+  "text": "Everything you can imagine is real.",
+  "topic": "imagination",
+  "author": "Pablo Picasso"
+},
+{
+  "text": "Imagination is the beginning of creation.",
+  "topic": "imagination",
+  "author": "George Bernard Shaw"
+}
+
 ]
