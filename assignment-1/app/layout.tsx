@@ -21,8 +21,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${pixel.variable} antialiased bg-[--bg] text-[--text] relative`}
       >
         {}
-        <div className="fixed inset-0 opacity-[0.05] bg-[url('/grid.svg')] pointer-events-none z-0" />
-
+        <div className="fixed inset-0 bg-pixel-grid pointer-events-none z-0" />
         {}
         <Toaster />
 
