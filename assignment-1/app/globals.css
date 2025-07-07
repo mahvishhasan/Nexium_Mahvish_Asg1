@@ -1,5 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  background: var(--bg);
+  color: var(--text);
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -76,6 +84,12 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
+  --bg: #11131a;
+  --panel: #1b1e26;
+  --accent: #ff006c;
+  --accent-light: #ff66a1;
+  --text: #f4f4f4;
+  
 }
 
 .dark {

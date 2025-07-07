@@ -1,3 +1,4 @@
+// assignment-1/tsconfig.json
 {
   "compilerOptions": {
     "target": "ES2017",
@@ -13,14 +14,18 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+
+    /* ✅ ADD THIS */
+    "baseUrl": ".",                   
+
+    /* alias map */
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@components/*": ["./app/components/*"],
+      "@/*": ["./app/*"],
+      "@lib/*": ["./lib/*"]
+    },
+
+    "plugins": [{ "name": "next" }]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
